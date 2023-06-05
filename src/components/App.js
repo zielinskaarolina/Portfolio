@@ -7,15 +7,15 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 function App() {
-  return (
-    <div className="app">
-      <Main/>
-      <AboutMe/>
-      <Technology/>
-      <Projects/>
-      <Contact/>
-    </div>
-  );
+	return (
+		<div className='app'>
+			<Main />
+			<AboutMe />
+			<Technology />
+			<Projects />
+			<Contact />
+		</div>
+	);
 }
 
 export default App;

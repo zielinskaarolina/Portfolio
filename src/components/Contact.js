@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/contact.css'
-import background from '../images/background.png'
 import mail from '../images/mail.png'
 import phone from '../images/phone.png'
 
