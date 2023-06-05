@@ -1,0 +1,14 @@
+.technology{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.technology h1{
+    align-self: center;
+}
+
+.technologies{
+    padding: 6rem 1rem;
+    display: flex;
+}

@@ -1,0 +1,15 @@
+.squares-container div{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(199, 198, 198);
+    border-radius: 50%;
+}
+
+.squares-container {
+    display: flex;
+    gap: 3px;
+}
+
+.point{
+    padding: 5rem 1rem;
+}

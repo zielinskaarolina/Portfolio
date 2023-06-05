@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.contact {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+    font-family: 'Minecraft', sans-serif;
+}
+
+.background {
+	position: absolute;
+	bottom: -10;
+	left: 0;
+	z-index: -1;
+}
+
+.grass {
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	bottom: -11rem;
+}
+
+.animation {
+    height: 100vh;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: 20%;
+    color: white;
+}
+
+.animation .text{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 8rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+
+.phoneandmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 40vw;
+    height: 60vh;
+}
+
+.monets-container{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 60%;
+}

@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Minecraft';
+	src: url('../Minecraft.ttf') format('truetype'); /* Ścieżka do pliku czcionki */
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+.app {
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+  background-color: black;
+}
+::-webkit-scrollbar-track {
+	border-left: NONE;
+}
+::-webkit-scrollbar-thumb {
+	background: #2b2b2b;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #414141;
+}
