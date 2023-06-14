@@ -1,10 +1,12 @@
 import '../styles/App.css';
-
+import gsap from 'gsap';
 import Main from './Main';
 import AboutMe from './AboutMe';
 import Technology from './Technology';
 import Projects from './Projects';
 import Contact from './Contact';
+
+
 
 function App() {
 	return (
