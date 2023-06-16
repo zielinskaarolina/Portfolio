@@ -17,4 +17,5 @@
 
 .aboutme p {
     text-align: center;
+    max-width: 400px;
 }

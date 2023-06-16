@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .contact {
-	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	position: relative;
-    font-family: 'Minecraft', sans-serif;
-    overflow: hidden;
+	font-family: 'Minecraft', sans-serif;
+	overflow: hidden;
 }
 
 .background {
@@ -25,37 +24,75 @@
 }
 
 .animation {
-    height: 100vh;
-    background-image: url('../images/background.png');
-    background-size: cover;
-    background-position: 20%;
-    color: white;
+	height: 100vh;
+    width: 100vw;
+	background-image: url('../images/background.png');
+	background-size: cover;
+	background-position: 20%;
+	color: white;
 }
 
-.animation .text{
-    font-family: 'Press Start 2P', cursive;
-    transform: translateY(30vh);
-    text-align: center;
-    padding: 0 1rem;
+.animation .text {
+	font-family: 'Press Start 2P', cursive;
+	transform: translateY(30vh);
+	text-align: center;
+	padding: 0 1rem;
 }
 
-.phoneandmail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    width: 40vw;
-    height: 60vh;
+.phoneandmail {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	width: 40vw;
+	height: 60vh;
 }
 
-.monets-container{
-    display: flex;
-    position: absolute;
-    right: 10%;
-    top: 40%;
+.monets-container {
+	display: flex;
+	position: absolute;
+	right: 10%;
+	top: 40%;
 }
 
-.cloud{
-    position: absolute;
+.cloud {
+	position: absolute;
 }
+
+@media only screen and (min-width: 500px) {
+	.monets-container {
+		right: 15%;
+	}
+
+	.monets-container img {
+		width: 80px;
+	}
+}
+
+@media only screen and (min-width: 650px) {
+	.animation {
+		background-image: url('../images/background_desktop.png');
+    }
+}
+
+@media only screen and (min-width: 730px) {
+	.animation {
+		background-image: url('../images/background_large.png');
+        background-position: 50%;
+	}
+    .monets-container {
+		right: 25%;
+	}
+    .monets-container img {
+		width: 90px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.animation {
+		background-image: url('../images/background_large.png');
+        background-position: 60%;
+	}
+}
+

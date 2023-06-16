@@ -20,6 +20,8 @@
     text-align: center;
     font-size: .8rem;
     font-weight: regular;
+    max-width: 400px;
+    margin-top: 1rem;
 }
 
 .main img{

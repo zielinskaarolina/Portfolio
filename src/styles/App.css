@@ -17,15 +17,15 @@
 }
 
 ::-webkit-scrollbar {
-	width: 7px;
-  background-color: black;
+	width: 8px;
+  background-color: rgb(161, 161, 161);
 }
 ::-webkit-scrollbar-track {
 	border-left: NONE;
 }
 ::-webkit-scrollbar-thumb {
-	background: #2b2b2b;
+	background: rgb(226, 226, 226);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: #414141;
+	background: #f7f5f5;
 }

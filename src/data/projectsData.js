@@ -30,8 +30,7 @@ const data = [
         img: 'ProjektYum.png',
         url: 'https://zielinskaarolina.github.io/App-for-order-food-YUM/',
         category: 'Mobile'
-    }
-   
+    },
 ]
 
 export default data

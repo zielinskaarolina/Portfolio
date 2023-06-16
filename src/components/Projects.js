@@ -13,8 +13,9 @@ const Projects = () => {
 	return (
 		<div className='projects'>
 			<h1 className='section-h1'>Projekty</h1>
-
+			<div className="projects-container">
 			{projects}
+			</div>
 		</div>
 	);
 };

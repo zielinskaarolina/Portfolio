@@ -40,13 +40,13 @@ const Contact = () => {
 	};
 	return (
 		<div className='contact'>
-			{generateRandomClouds(8)}
+			{generateRandomClouds(12)}
 			<h1 className='section-h1'>Kontakt</h1>
 			<div className='animation'>
 				<p className='text'>Daj mi wejsc do gry jako front-end developer</p>
 				<div className='monets-container' ref={moneyRef} style={{ opacity: 0 }}>
-					<img src={mail} alt='' />
-					<img src={phone} alt='' />
+					<a href="mailto:zielinskarolina@outlook.com"><img src={mail} alt='' /></a>
+					<a href="tel:724-434-777"><img src={phone} alt='' /></a>
 				</div>
 			</div>
 		</div>
