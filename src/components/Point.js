@@ -19,7 +19,6 @@ const Point = ({ name, points, color }) => {
 			scrollTrigger: {
 				trigger: el,
 				start: 'top 80%',
-				markers: true
 			},
 		});
 	});

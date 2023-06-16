@@ -22,7 +22,8 @@ const Contact = () => {
 			duration: 1,
 			scrollTrigger: {
 				trigger: money,
-				start: 'top 80%'
+				start: 'top 80%',
+				markers: false,
 			},
 		});
 	});
