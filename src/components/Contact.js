@@ -22,8 +22,7 @@ const Contact = () => {
 			duration: 1,
 			scrollTrigger: {
 				trigger: money,
-				start: 'top 80%',
-				markers: true,
+				start: 'top 80%'
 			},
 		});
 	});
@@ -32,8 +31,8 @@ const Contact = () => {
 		for (let i = 0; i < number; i++) {
 			let positionX = Math.floor(Math.random() * window.innerWidth - 400);
 			let positionY = Math.floor(Math.random() * window.innerHeight);
-			let opacity = (Math.random() * 1);
-			clouds.push(<Cloud x={positionX} y={positionY} opacity={opacity}/>);
+			let opacity = Math.random() * 1;
+			clouds.push(<Cloud x={positionX} y={positionY} opacity={opacity} />);
 		}
 
 		return <>{clouds}</>;
