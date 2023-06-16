@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .contact {
-	min-height: 100vh;
+	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	position: relative;
     font-family: 'Minecraft', sans-serif;
+    overflow: hidden;
 }
 
 .background {
@@ -53,4 +54,8 @@
     position: absolute;
     right: 10%;
     top: 40%;
+}
+
+.cloud{
+    position: absolute;
 }

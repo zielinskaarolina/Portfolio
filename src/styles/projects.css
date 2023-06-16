@@ -16,3 +16,9 @@
 .project img {
     width: 280px;
 }
+
+.project p {
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+}
