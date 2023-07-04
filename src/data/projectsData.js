@@ -4,7 +4,7 @@ const data = [
         name: 'Strona firmy',
         desc: 'Piastech to projekt strony internetowej dla firmy specjalizującej się w piaskowaniu, sodowaniu i szkiełkowaniu. Została stworzona przy użyciu JS, HTML i CSS. Projekt ten wyróżnia się wysokim pozycjonowaniem w wynikach wyszukiwania Google oraz staranną optymalizacją pod kątem SEO.',
         img: 'ProjektPiastech.png',
-        url: 'https://piastech.pl/',
+        url: 'https://zielinskaarolina.github.io/Pias-Tech/',
         category: 'All'
     },
     {
