@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d84f74d9.css",
-    "main.js": "/Portfolio/static/js/main.695bb530.js",
-    "static/media/background_large.png": "/Portfolio/static/media/background_large.11bfc022999d3849fd02.png",
-    "static/media/background_desktop.png": "/Portfolio/static/media/background_desktop.370f96c6f63726142991.png",
-    "static/media/background.png": "/Portfolio/static/media/background.f868f744f4db7d807aa8.png",
-    "static/media/technology.png": "/Portfolio/static/media/technology.06418f379247d8dddb67.png",
-    "static/media/Minecraft.ttf": "/Portfolio/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
-    "index.html": "/Portfolio/index.html",
-    "main.d84f74d9.css.map": "/Portfolio/static/css/main.d84f74d9.css.map",
-    "main.695bb530.js.map": "/Portfolio/static/js/main.695bb530.js.map"
+    "main.css": "https://karolinazielinska.com/./static/css/main.6e013496.css",
+    "main.js": "https://karolinazielinska.com/./static/js/main.7bc6057e.js",
+    "static/media/background_large.png": "https://karolinazielinska.com/./static/media/background_large.11bfc022999d3849fd02.png",
+    "static/media/background_desktop.png": "https://karolinazielinska.com/./static/media/background_desktop.370f96c6f63726142991.png",
+    "static/media/background.png": "https://karolinazielinska.com/./static/media/background.f868f744f4db7d807aa8.png",
+    "static/media/technology.png": "https://karolinazielinska.com/./static/media/technology.06418f379247d8dddb67.png",
+    "static/media/Minecraft.ttf": "https://karolinazielinska.com/./static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
+    "index.html": "https://karolinazielinska.com/./index.html",
+    "main.6e013496.css.map": "https://karolinazielinska.com/./static/css/main.6e013496.css.map",
+    "main.7bc6057e.js.map": "https://karolinazielinska.com/./static/js/main.7bc6057e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d84f74d9.css",
-    "static/js/main.695bb530.js"
+    "static/css/main.6e013496.css",
+    "static/js/main.7bc6057e.js"
   ]
 }
